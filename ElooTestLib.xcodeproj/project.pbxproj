@@ -17,6 +17,7 @@
 		5AF575DD292A55C1005DE068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF575DB292A55C1005DE068 /* Main.storyboard */; };
 		5AF575DF292A55C2005DE068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF575DE292A55C2005DE068 /* Assets.xcassets */; };
 		5AF575E2292A55C2005DE068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF575E0292A55C2005DE068 /* LaunchScreen.storyboard */; };
+		5AF575E8292A56CD005DE068 /* ElooTestLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF575E7292A56CD005DE068 /* ElooTestLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		5AF575DE292A55C2005DE068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF575E1292A55C2005DE068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF575E3292A55C2005DE068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF575E7292A56CD005DE068 /* ElooTestLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElooTestLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				5AF575B8292A54F2005DE068 /* ElooTestLib.h */,
 				5AF575B9292A54F2005DE068 /* ElooTestLib.docc */,
+				5AF575E7292A56CD005DE068 /* ElooTestLib.swift */,
 			);
 			path = ElooTestLib;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF575E8292A56CD005DE068 /* ElooTestLib.swift in Sources */,
 				5AF575BA292A54F2005DE068 /* ElooTestLib.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +503,7 @@
 		5AF575CD292A54F2005DE068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BP2GHWM7V6;
@@ -518,6 +523,7 @@
 		5AF575CE292A54F2005DE068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BP2GHWM7V6;
