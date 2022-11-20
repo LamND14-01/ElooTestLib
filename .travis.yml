@@ -1,0 +1,11 @@
+language: objective-c
+
+osx_image: xcode14
+env:
+  matrix:
+    - TEST_SDK=iphonesimulator15.0 OS=15.0 NAME='iPhone 12'
+    - TEST_SDK=iphonesimulator15.0 OS=15.0 NAME='iPhone 13'
+
+script:
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project ElooTestLib.xcodeproj -scheme ElooTestLib -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+
