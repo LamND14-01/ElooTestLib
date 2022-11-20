@@ -11,6 +11,10 @@ public final class ElooTestLib {
 
     let name = "ElooTestLib"
     
+    public init() {
+        
+    }
+    
     public func add(a: Int, b: Int) -> Int {
         return a + b
     }

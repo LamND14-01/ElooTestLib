@@ -12,7 +12,7 @@ This CocoaPods library helps you perform calculation.
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Eloo" => "lamnd.eloo.dev@gmail.com" }
 
-  spec.ios.deployment_target = "14.0"
+  spec.ios.deployment_target = "13.0"
   spec.swift_version = "5"
 
   spec.source        = { :git => "https://github.com/LamND14-01/ElooTestLib.git", :tag => "#{spec.version}" }
